@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/fbsobreira/gotron-sdk/pkg/proto/api"
+	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
 	"github.com/luoxiandong/gosmart-sdk/pkg/client"
 	"github.com/luoxiandong/gosmart-sdk/pkg/common"
 	"github.com/luoxiandong/gosmart-sdk/pkg/keystore"
 	"github.com/luoxiandong/gosmart-sdk/pkg/ledger"
-	"github.com/luoxiandong/gosmart-sdk/pkg/proto/api"
-	"github.com/luoxiandong/gosmart-sdk/pkg/proto/core"
 	proto "google.golang.org/protobuf/proto"
 )
 
